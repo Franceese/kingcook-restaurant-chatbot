@@ -42,7 +42,7 @@ function App() {
     try {
 
       const response = await axios.post(
-        "http://localhost:5000/api/chat",
+        "/api/chat",
         {
           message: "menu",
           sessionId
@@ -84,7 +84,7 @@ function App() {
     try {
 
       const response = await axios.post(
-        "http://localhost:5000/api/chat",
+        "/api/chat",
         {
           message: text,
           sessionId
@@ -127,7 +127,7 @@ function App() {
     try {
 
       const response = await axios.post(
-        "http://localhost:5000/api/chat",
+        "/api/chat",
         {
           message: "99",
           sessionId
@@ -142,7 +142,7 @@ function App() {
       }
 
       const payment = await axios.post(
-        "http://localhost:5000/api/chat/pay",
+        "/api/chat/pay",
         {
           email: "customer@email.com",
           amount: response.data.total

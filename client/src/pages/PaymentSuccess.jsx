@@ -21,7 +21,7 @@ function PaymentSuccess() {
         localStorage.getItem("sessionId");
 
         await axios.post(
-          "http://localhost:5000/api/chat/verify-payment",
+          "/api/chat/verify-payment",
           {
             reference,
             sessionId
