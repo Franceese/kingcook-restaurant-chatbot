@@ -149,7 +149,7 @@ exports.initializePayment = async (req, res) => {
         amount: amount * 100,
 
         callback_url:
-        "http://localhost:5173/payment-success"
+        "https://kingcook-restaurant-chatbot.onrender.com/payment-success"
       },
 
       {
