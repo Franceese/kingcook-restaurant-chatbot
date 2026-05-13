@@ -1,4 +1,4 @@
-const Session = require("../models/Session");
+const Session = require("../models/session");
 const menu = require("../services/menu");
 const axios = require("axios");
 
